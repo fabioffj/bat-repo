@@ -1,5 +1,5 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Bangers', cursive;
     margin: 0;
     padding: 0;
     border: none;
@@ -13,12 +13,12 @@ body {
     background-image: url(./img/Batman-Yellow-Symbol.jpg);
     background-position: center;
     background-size: cover;
-    color: antiquewhite;
+    color: #fff;
 }
 
 #site {
     width: 1024px;  
-    height: 600px;    
+    height: 650px;    
     background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(51,51,51,1) 100%);
     margin: 100px auto;
     border-radius: 15px;    
@@ -76,4 +76,36 @@ hr {
     border-radius: 10px;
     text-decoration: none;
     display: inline-block;
+}
+
+section h1 {
+    margin: 20px;
+}
+
+section img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.container-produto {    
+    margin: 20px;
+    display: flex;
+    gap: 50px;
+}
+
+.produto table, tr, th, td{
+    margin: 20px;
+    border: 1px solid #fff;
+}
+
+.produto tr, th, td {
+    padding: 10px 20px;
+}
+
+#info {
+    font-family: 'Comic Neue', cursive;
+}
+
+#preco {
+    font-size: xx-large;
 }
