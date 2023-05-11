@@ -29,6 +29,7 @@ body {
     gap: 15px;
     flex-direction: row;
     align-items: center;
+    
 }
 
 #form-busca {
@@ -54,4 +55,10 @@ body {
 #form-busca button:hover svg {
     stroke: rgb(254,210,11) ;
     transition: 1000ms;
+}
+
+hr {
+    border: 1px solid antiquewhite;
+    width: 98%;
+    margin: 5px auto;
 }
