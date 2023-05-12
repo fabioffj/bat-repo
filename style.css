@@ -50,11 +50,11 @@ body {
 
 #form-busca button svg {
     stroke: #515151;
+    transition: 1000ms;
 }
 
 #form-busca button:hover svg {
-    stroke: rgb(254,210,11);
-    transition: 1000ms;
+    stroke: rgb(254,210,11);    
 }
 
 hr {
@@ -94,7 +94,7 @@ section img {
 }
 
 .produto {
-    font-size: xx-large;
+    font-size: 1.5em;
 }
 
 .produto table, tr, th, td{
@@ -107,5 +107,20 @@ section img {
 }
 
 #preco {
-    font-size: small;
+    font-size: 0.6em;
+}
+
+#btn-compra {
+    background-color: #515151;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0px;
+    transition: all 1000ms;
+    font-size: 1.5em;
+}
+
+#btn-compra:hover {
+    color: #000;
+    background-color: rgb(254,210,11);    
 }
