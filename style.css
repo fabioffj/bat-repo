@@ -18,7 +18,7 @@ body {
 
 #site {
     width: 1024px;  
-    height: 690px;    
+    height: 700px;    
     background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(51,51,51,1) 100%);
     margin: 100px auto;
     border-radius: 15px;    
@@ -125,6 +125,11 @@ section img {
     background-color: rgb(254,210,11);    
 }
 
+footer{
+    display: flex;
+    align-items: center;
+}
+
 #cnpj {
-    margin: 10px;
+    margin: 10px;    
 }
