@@ -18,7 +18,7 @@ body {
 
 #site {
     width: 1024px;  
-    height: 650px;    
+    height: 690px;    
     background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(51,51,51,1) 100%);
     margin: 100px auto;
     border-radius: 15px;    
@@ -123,4 +123,8 @@ section img {
 #btn-compra:hover {
     color: #000;
     background-color: rgb(254,210,11);    
+}
+
+#cnpj {
+    margin: 10px;
 }
