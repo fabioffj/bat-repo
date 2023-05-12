@@ -93,19 +93,19 @@ section img {
     gap: 50px;
 }
 
+.produto {
+    font-size: xx-large;
+}
+
 .produto table, tr, th, td{
     margin: 20px;
     border: 1px solid #fff;
 }
 
 .produto tr, th, td {
-    padding: 10px 20px;
-}
-
-#info {
-    font-family: 'Comic Neue', cursive;
+    padding: 10px 30px;
 }
 
 #preco {
-    font-size: xx-large;
+    font-size: small;
 }
